@@ -1,12 +1,18 @@
-# 🛠️ Hermes Agent 自定义 Skills
+# 🛠️ Hermes Agent 自定义 Skills & 脚本
 
-个人的 Hermes Agent 技能集合。
+个人的 Hermes Agent 技能集合和实用脚本。
 
 ## Skills 列表
 
 | Skill | 说明 | 用法 |
 |-------|------|------|
 | [requirement-analyst](productivity/requirement-analyst/) | 需求分析专家 — 输入想法，输出需求文档 + Excel | "我想做一个XXX，帮我出需求文档" |
+
+## 实用脚本
+
+| 脚本 | 说明 | 用法 |
+|------|------|------|
+| [hermes-achievements-cn-proxy](scripts/hermes-achievements-cn-proxy.py) | Hermes Dashboard 成就页中文化代理 — 将 Achievements 插件翻译为中文，零外部依赖，不动源码 | `python3 hermes-achievements-cn-proxy.py` |
 
 ## 安装
 
